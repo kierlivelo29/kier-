@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    height: 462vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    width: 493;
+    clip-path: circle();
+
+}
