@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Image</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
            /* Desktop - 4 */
@@ -14,36 +19,50 @@ background: #151925;
 
 
         }
-    </style>
-    <title>Page Title</title>
-</head>
-<body>
-
-
-
-
-<style>
-    div.image17 { 
-
-      /* image 17 */
+        div.r0 {
+            /* Rectangle 17 */
 
 position: absolute;
-width: 282px;
-height: 261px;
-left: calc(50% - 282px/2);
-top: 381px;
+width: 326px;
+height: 71px;
+left: 557px;
+top: 724px;
 
-background: url(image.png);
-border-radius: 4px;
+background: rgba(1, 238, 255, 0.87);
+border-radius: 50px;
 
-    }
-          
+        }
+        div.click {
+            /* Click here! */
 
-</style>
-<div>
-    <div class="image17"><img src="profile.jpg" width="282" height="261"></div>
+position: absolute;
+width: 290px;
+height: 64px;
+left: 620px;
+top: 680px;
 
-</div>
+font-family: 'Michroma';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 64px;
+/* identical to box height */
+
+color: #000000;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="box">
+        <img src="FB_IMG_1716182606375.jpg">
+        <div class="r0"><width="326" height="71"></div>
+        <div class="click"><a href="page1.html"><p>Click here!</p></a></div>
+    </div>
 </body>
 
 </html>
