@@ -1,17 +1,18 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding:0px;
 
 }
-body {
-    height: 462vh;
+.image{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.profile {
-    width: 493;
-    clip-path: circle();
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 
 }
