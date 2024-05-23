@@ -1,68 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rounded Image</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-           /* Desktop - 4 */
-
-position: relative;
-width: 1440px;
-height: 1024px;
-
-background: #151925;
-
-        }
-        div.r0 {
-            /* Rectangle 17 */
-
-position: absolute;
-width: 326px;
-height: 71px;
-left: 557px;
-top: 724px;
-
-background: rgba(1, 238, 255, 0.87);
-border-radius: 50px;
-
-        }
-        div.click {
-            /* Click here! */
-
-position: absolute;
-width: 290px;
-height: 64px;
-left: 620px;
-top: 680px;
-
-font-family: 'Michroma';
-font-style: normal;
-font-weight: 400;
-font-size: 45px;
-line-height: 64px;
-/* identical to box height */
-
-color: #000000;
-
-
-text-shadow: 0px 4px 4px #fdf7f740;
-
-        }
-    </style>
-    
-</head>
-<body>
-    <div class="box">
-        <img src="FB_IMG_1716182606375.jpg">
-        <div class="r0"><width="326" height="71"></div>
-        <div class="click"><a href="page1.html"><p>Click here!</p></a></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rounded Image</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
         
+        body {
+            background: #151925;
+        }
+        .click{
+            background: rgba(1, 238, 255, 0.87);
+            font-family: 'Michroma';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                border-radius: 50px;
+                padding: 0 15px;
+                color: #000000;
+                text-shadow: 0px 4px 4px #fdf7f740;
+                width: 290px;
+                text-align: center;               
+        }
+        .click  a{
+            text-decoration: none;
+            
+        }
+        .box {
+            height: 100vh;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            }
+
+        .box img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            padding: 10px;
+            border: 5px solid #01eeff;
+        }
+
+        @media screen and (max-width: 400px) {
+            .box img {
+            width: 150px;
+            height: 150px;
+     
+        }
+        .click{
+            background: rgba(1, 238, 255, 0.87);
+                font-size: 20px;
+                width: 150px;
+                height: 45px;
+                margin-top: 10px;
+                padding: 0 10px; 
+                display: flex;
+                justify-content: center;
+                place-items: center;
+                        
+        }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <img src="FB_IMG_1716182606375.jpg">
+            <div class="click">
+                <a href="page1.html">
+                    <p>
+                        Click here!
+                    </p>
+                </a>
+            </div>
+        </div>
     </div>
 </body>
-
 </html>
