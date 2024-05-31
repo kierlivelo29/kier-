@@ -19,7 +19,7 @@
       display: flex;
       flex-direction: column;
       place-items: center;
-      background-color:  rgba(213, 241, 250, 0.692);
+      background-color:  rgba(213, 241, 250, 0.836);
       backdrop-filter: blur(10px)
   }
   .rect2 {
@@ -30,7 +30,7 @@
       display: flex;
       flex-direction: column;
       place-items: center;
-      background-color: rgba(213, 241, 250, 0.692);
+      background-color: rgba(213, 241, 250, 0.836);
       backdrop-filter: blur(10px)
   }
   .rect3 {
@@ -41,7 +41,7 @@
       display: flex;
       flex-direction: column;
       place-items: center;
-      background-color: rgba(213, 241, 250, 0.692);
+      background-color: rgba(213, 241, 250, 0.836);
       backdrop-filter: blur(10px)
   }
 
